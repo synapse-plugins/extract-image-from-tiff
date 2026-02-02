@@ -1,6 +1,7 @@
 name: tiff-to-image-uploader-v2
 code: tiff-to-image-uploader-v2
 version: 0.1.0
+debug: true
 category: upload
 description: TIF/TIFF 파일에서 이미지를 추출하여 업로드하는 플러그인
 actions:
