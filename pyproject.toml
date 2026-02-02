@@ -1,0 +1,15 @@
+[project]
+name = "tiff-to-image-uploader"
+version = "0.1.0"
+description = "tiff-to-image-uploader plugin"
+requires-python = ">=3.10"
+dependencies = [
+    "synapse-sdk",
+    "Pillow",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
