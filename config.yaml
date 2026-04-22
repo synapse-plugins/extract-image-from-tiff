@@ -1,8 +1,10 @@
 name: tiff-to-image-uploader
 code: extract-image-from-tiff
-version: 2.0.0
+version: 2.1.0
 category: upload
 description: TIF/TIFF 파일에서 이미지를 추출하여 업로드하는 플러그인
+supported_data_types:
+  - image
 actions:
   upload:
     entrypoint: plugin.upload.UploadAction
