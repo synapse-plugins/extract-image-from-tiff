@@ -1,7 +1,6 @@
-name: tiff-to-image-uploader-v2
-code: tiff-to-image-uploader-v2
-version: 0.1.0
-debug: true
+name: tiff-to-image-uploader
+code: extract-image-from-tiff
+version: 2.0.0
 category: upload
 description: TIF/TIFF 파일에서 이미지를 추출하여 업로드하는 플러그인
 actions:
@@ -27,17 +26,17 @@ actions:
       help: 데이터 유닛에 할당할 묶음 이름을 입력하세요.
       required: false
   download:
-    entrypoint: .venv.lib.python3.12.site-packages.synapse_sdk.plugins.testing.sample_actions.DownloadAction
+    entrypoint: .venv.lib.python3.13.site-packages.synapse_sdk.plugins.testing.sample_actions.DownloadAction
     method: job
   convert:
-    entrypoint: .venv.lib.python3.12.site-packages.synapse_sdk.plugins.testing.sample_actions.ConvertAction
+    entrypoint: .venv.lib.python3.13.site-packages.synapse_sdk.plugins.testing.sample_actions.ConvertAction
     method: job
   train:
-    entrypoint: .venv.lib.python3.12.site-packages.synapse_sdk.plugins.testing.sample_actions.TrainAction
+    entrypoint: .venv.lib.python3.13.site-packages.synapse_sdk.plugins.testing.sample_actions.TrainAction
     method: job
   add_task_data:
-    entrypoint: .venv.lib.python3.12.site-packages.synapse_sdk.plugins.actions.add_task_data.action.AddTaskDataAction
+    entrypoint: .venv.lib.python3.13.site-packages.synapse_sdk.plugins.actions.add_task_data.action.AddTaskDataAction
     method: job
   export:
-    entrypoint: .venv.lib.python3.12.site-packages.synapse_sdk.plugins.actions.export.action.DefaultExportAction
+    entrypoint: .venv.lib.python3.13.site-packages.synapse_sdk.plugins.actions.export.action.DefaultExportAction
     method: job
