@@ -1,6 +1,6 @@
 [project]
 name = "tiff-to-image-uploader"
-version = "2.1.4"
+version = "2.1.6"
 description = "tiff-to-image-uploader plugin"
 requires-python = ">=3.10"
 dependencies = [
